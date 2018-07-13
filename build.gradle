@@ -1,13 +1,3 @@
-task standup() {
-    println "Stand up"
+task hello() {
+    project.ant.echo(message: "Hello, ant")
 }
-
-task hello(dependsOn: standup) {
-    println "Hello, world"
-}
-
-task hello2() {
-    println "Hello, world, too"
-}
-
-hello2.dependsOn hello

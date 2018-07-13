@@ -1,16 +1,10 @@
-Gradle Define Custom Task Demo
-==============================
+Gradle Call Ant Task Demo
+=========================
 
-How to define custom task in `build.gradle`
+How to call ant task in gradle directly
 
 Run:
 
 ```
 ./gradlew hello
-```
-
-or
-
-```
-./gradlew hello2
 ```
